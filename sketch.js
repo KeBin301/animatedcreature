@@ -6,7 +6,7 @@ function setup() {
 
 function draw() {
   background(220);
-  
+  strokeWeight(2);
   fill(200, 200, 200);
   rect(0, 350, width, 50);
   
@@ -56,9 +56,10 @@ function draw() {
   ellipse(150, 70, 40, 40);
   ellipse(250, 70, 40, 40);
 
+  stroke(0);
+  strokeWeight(4);
+  line(30, 225, 100, 200);
+  line(375, 225, 300, 200);
   
   console.log(mouseX + ", " + mouseY);
 }
-
-    
-
